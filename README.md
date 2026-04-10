@@ -1,6 +1,6 @@
 # Swiggy-Order-Revenue-Analysis-using-SQL
 
-## 📌 Overview
+## Overview
 
 This project focuses on analyzing a food delivery platform's data to derive actionable business insights. The goal is to simulate real-world decision-making scenarios using SQL by evaluating performance across orders, revenue, customer behavior, restaurant performance, and ratings.
 
@@ -8,7 +8,7 @@ Instead of treating this as a technical exercise, this project is structured aro
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 - Measure overall business performance using key KPIs
 - Analyze trends across time (monthly, quarterly, yearly)
@@ -19,7 +19,7 @@ Instead of treating this as a technical exercise, this project is structured aro
 
 ---
 
-## 🧠 Business Impact
+## Business Impact
 
 This analysis helps stakeholders:
 - Identify revenue-driving regions and cuisines
@@ -33,7 +33,7 @@ This analysis helps stakeholders:
 
 ---
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
 - SQL (SQL SERVER)
 - Data Analysis Techniques
@@ -41,7 +41,7 @@ This analysis helps stakeholders:
 
 ---
 
-## 📊 Key Analysis Areas
+## Key Analysis Areas
 
 ### 1. Core KPIs
 - Total Orders
@@ -72,14 +72,6 @@ This analysis helps stakeholders:
 - Distribution of ratings (1–5)
 
 ---
-
-## 🚀 How to Use
-
-1. Clone the repository
-2. Open the SQL file
-3. Run queries in your SQL environment
-4. Review insights and adapt for business use cases
-
 ---
 
 

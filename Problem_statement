@@ -1,0 +1,159 @@
+# Business Problem Statements
+
+## Business Context
+
+A food delivery platform is aiming to build a data-driven decision system to improve operational efficiency, customer satisfaction, and revenue growth.
+
+However, the raw transactional data is unstructured, inconsistent, and not optimized for analytical querying. The business requires a complete pipeline — from data cleaning to modeling and finally to insight generation.
+
+The following problem statements represent real-world challenges faced by the business.
+
+---
+
+## 1. Data Quality and Reliability Assessment
+
+Before any analysis can be trusted, the company needs to ensure that its data is clean and reliable.
+
+The data team is tasked with identifying the extent of missing values across critical fields such as state, city, order date, restaurant name, category, dish name, price, and ratings.
+
+Additionally, the business suspects that there may be incomplete records (blank values) and duplicate transactions in the dataset, which could lead to inflated metrics and incorrect decision-making.
+
+The objective is to detect and resolve these issues to ensure data integrity before proceeding with analysis.
+
+---
+
+## 2. Duplicate Transaction Identification and Removal
+
+The platform processes thousands of orders daily, and there is a possibility of duplicate entries due to system errors or data ingestion issues.
+
+The business wants to identify duplicate records across all key attributes (location, restaurant, dish, pricing, and ratings) and remove redundant entries while preserving a single accurate record.
+
+This step is critical to prevent overestimation of orders and revenue.
+
+---
+
+## 3. Building a Scalable Data Model for Analysis
+
+The current dataset is not optimized for analytical queries, making it difficult to generate insights efficiently.
+
+The data team is required to design a structured data model using a star schema approach. This involves separating the data into dimension tables (date, location, restaurant, category, dish) and a central fact table for orders.
+
+The goal is to create a scalable and query-efficient structure that supports complex business analysis.
+
+---
+
+## 4. Core Business KPI Evaluation
+
+The leadership team needs a high-level performance dashboard to understand the current state of the business.
+
+They require insights into:
+- Total number of orders processed
+- Total revenue generated (in INR millions)
+- Average price of dishes
+- Overall average customer rating
+
+These metrics will act as baseline indicators of business health.
+
+---
+
+## 5. Monthly Revenue and Order Trends Analysis
+
+The business has noticed fluctuations in demand but lacks clarity on monthly performance patterns.
+
+The objective is to analyze how both order volume and revenue change across months and years to identify peak seasons, low-demand periods, and revenue-driving months.
+
+This will support marketing campaigns and demand forecasting.
+
+---
+
+## 6. Quarterly Performance Evaluation
+
+To support strategic planning, the leadership team wants to evaluate performance at a quarterly level.
+
+They need to understand which quarters contribute the most to total orders and whether there are recurring seasonal trends that impact business performance.
+
+---
+
+## 7. Year-over-Year Growth Analysis
+
+The company is focused on long-term growth and wants to measure whether its order volume is increasing year over year.
+
+This analysis will help determine whether the business is scaling effectively or facing stagnation.
+
+---
+
+## 8. Day-of-Week Customer Behavior Analysis
+
+Operations and delivery efficiency depend heavily on understanding daily demand patterns.
+
+The business wants to analyze how order volume varies across different days of the week to optimize staffing, delivery logistics, and promotional strategies.
+
+---
+
+## 9. City-Level Demand Concentration
+
+The company operates in multiple cities but needs clarity on where demand is strongest.
+
+The objective is to identify the top 10 cities by order volume and understand how demand is concentrated geographically.
+
+This will guide targeted expansion and marketing efforts.
+
+---
+
+## 10. Regional Revenue Contribution Analysis
+
+The leadership team wants to understand how revenue is distributed across different regions.
+
+By analyzing revenue contribution at the city/state level, the business can identify high-performing markets and regions that require improvement or investment.
+
+---
+
+## 11. Restaurant Performance Evaluation
+
+Not all restaurant partners contribute equally to the platform.
+
+The business wants to identify the top 10 restaurants based on order volume to strengthen partnerships, prioritize visibility, and replicate successful strategies across other vendors.
+
+---
+
+## 12. Category-Level Demand Analysis
+
+Understanding customer cuisine preferences is essential for optimizing offerings.
+
+The business needs to evaluate which food categories generate the highest number of orders and use this insight to improve recommendations, promotions, and onboarding strategies.
+
+---
+
+## 13. Dish-Level Popularity Analysis
+
+The company wants to identify the most frequently ordered dishes across the platform.
+
+This insight will help restaurants optimize their menus and allow the platform to promote high-demand items effectively.
+
+---
+
+## 14. Cuisine Performance vs Customer Satisfaction
+
+High order volume does not always mean high satisfaction.
+
+The business wants to evaluate cuisine performance by analyzing both total orders and average ratings to identify categories that are popular but underperforming in customer satisfaction.
+
+---
+
+## 15. Customer Spending Behavior Segmentation
+
+Pricing strategy depends on understanding how much customers are willing to spend.
+
+The business wants to segment orders into spending buckets (Under 100, 100–199, 200–299, 300–499, 500+) and analyze the distribution of orders across these ranges.
+
+This will help in designing targeted pricing strategies, discounts, and premium offerings.
+
+---
+
+## 16. Ratings Distribution and Service Quality Analysis
+
+Customer ratings are a direct reflection of service quality.
+
+The business wants to analyze how ratings are distributed across the scale from 1 to 5 to understand whether the majority of customer experiences are positive or if there are underlying service issues.
+
+This will help identify areas requiring operational improvement.

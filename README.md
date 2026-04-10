@@ -30,9 +30,6 @@ This analysis helps stakeholders:
 
 ---
 
-
----
-
 ## Tools & Technologies
 
 - SQL (SQL SERVER)
@@ -71,7 +68,5 @@ This analysis helps stakeholders:
 ### 6. Ratings Analysis
 - Distribution of ratings (1–5)
 
----
----
 
 
